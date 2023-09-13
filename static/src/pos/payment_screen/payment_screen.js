@@ -21,6 +21,13 @@ const PaymentScreenInherit = (payment_screen) => class extends payment_screen {
         console.log(PaymentLine1)
         return PaymentLine1
 
+       
+
+    }
+
+    go_next(){
+
+        console.log('button next pressed')
     }
 
 }
