@@ -31,11 +31,14 @@
     # only loaded in demonstration mode
     'assets': {
         "point_of_sale.assets": [
+            'list_hiritage_owl/static/src/pos/favorite_secreen.scss',
+            'list_hiritage_owl/static/src/pos/**/*.js',
+            'list_hiritage_owl/static/src/pos/payment_screen/**/*.xml',
+            'list_hiritage_owl/static/src/pos/payment_screen/**/*.js',
             'list_hiritage_owl/static/src/favorite_screen_button/**/*.js',
             'list_hiritage_owl/static/src/favorite_screen_button/**/*.xml',
             'list_hiritage_owl/static/src/favorite_secreen/**/*.js',
             'list_hiritage_owl/static/src/favorite_secreen/**/*.xml',
-            'list_hiritage_owl/static/src/favorite_secreen/**/*.scss',
 
 
         ],
