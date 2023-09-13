@@ -1,7 +1,7 @@
-.pos .pos-topheader
-{
-        background: #065195;
+.pos .pos-topheader {
+    background: #065195;
 }
+
 .pos .pos-logo {
     height: 100%;
     margin-left: 10px;
@@ -15,50 +15,47 @@
     background: #f7f7f7;
 
 }
+
 .pos .rightpane {
-    
+
     background: #fdfdfd;
 }
 
-.pos .order{
+.pos .order {
     background: rgb(1, 2, 65);
     color: white;
-    max-width :100%;
+    max-width: 100%;
 
 }
 
-.pos .leftpane {
-    max-width: 1500px;
-    order:2
 
-}
-
-.pos .righttpane {
-    order:1
-
-}
-
-.pos .order .orderline .info-list{
+.pos .order .orderline .info-list {
     color: white;
 }
 
 .pos .order .orderline .info-list em {
     color: white;
-    
+
 }
 
-.pos .button.validation {
-   
-    background: #DF493A;
+// .pos .button.validation {
+
+//     background: #DF493A;
+// }
+.pos .leftpane {
+    max-width: 1500px;
 }
+
+
+
 
 .favorite-product-screen {
-    background-color: #011801!important;
+    background-color: #011801 !important;
     color: white;
     display: flex;
     flex-direction: column;
     height: 100%;
-    
+
 
     .screen-header {
         min-height: 100px;
@@ -80,10 +77,12 @@
                     background-color: red;
                     color: white;
                 }
+
                 &.orange {
                     background-color: orange;
                     color: white;
                 }
+
                 &.blue {
                     background-color: blue;
                     color: white;
@@ -94,7 +93,7 @@
 
     .favorite-content {
         display: flex;
-        height:100%;
+        height: 100%;
         overflow: hidden;
     }
 
@@ -108,7 +107,9 @@
             background-color: white;
             color: black;
 
-            tr, td, th {
+            tr,
+            td,
+            th {
                 padding: 10px;
             }
 
@@ -116,7 +117,7 @@
                 border: 1px solid #eee;
                 cursor: pointer;
 
-                &:nth-child(even){
+                &:nth-child(even) {
                     background-color: #ccc;
                 }
 
@@ -138,14 +139,26 @@
         .selected-product {
             padding: 10px;
         }
+
         .pads {
             margin-top: auto;
 
-            .subpads{
+            .subpads {
                 display: flex;
             }
         }
 
-      
+
     }
 }
+
+// .pos .leftpane {
+//     max-width: 1500px;
+//     order:2
+
+// }
+
+// .pos .righttpane {
+//     order:1
+
+// }
