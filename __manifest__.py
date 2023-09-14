@@ -28,14 +28,17 @@
         # 'views/views.xml',
         # 'views/templates.xml',
     ],
-    # only loaded in demonstration mode
     'assets': {
         "point_of_sale.assets": [
-            'list_hiritage_owl/static/src/pos/**/*.js',
+            
+            'list_hiritage_owl/static/src/pos/favorite_product/favorite_product.scss',
+            'list_hiritage_owl/static/src/pos/favorite_product/favorite_product.xml',
+            'list_hiritage_owl/static/src/pos/favorite_product/favorite_product.js',
+
+            
             'list_hiritage_owl/static/src/pos/*.xml',
-            'list_hiritage_owl/static/src/pos/*.scss',
-
-
+            'list_hiritage_owl/static/src/pos/*.scss',           
+           
             'list_hiritage_owl/static/src/pos/payment_screen/**/*.xml',
             'list_hiritage_owl/static/src/pos/payment_screen/**/*.js',
             
