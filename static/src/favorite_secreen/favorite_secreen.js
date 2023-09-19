@@ -8,7 +8,7 @@ odoo.define('test.FavoriteSereenProduct', function (require) {
     class FavoriteSereenProduct extends PosComponent{
         setup(){
             super.setup()
-            console.log('hloo owl najjariFavoriteSereenProduct  FavoriteSereenProduct')
+            console.log('hloo owl najjariFavorite Sereen Product  FavoriteSereenProduct')
         }
     }
     
