@@ -10,26 +10,35 @@ const ProductScreenInherit = (product_screen) => class extends product_screen {
     setup() {
         super.setup()
         console.log(this.env.pos.db) 
+        console.log('pos service',this.env.services)
         this.favorite_products = []
     
 
         onWillStart(async () => {
-            const data = await this.env.services.rpc({
-                'model': 'product.product',
-                'method': 'search',
-                'kwargs': {
-                    'domain': [['product_tag_ids.name', '=','favorite']]
-                }
+            // const data = await this.env.services.rpc({
+            //     'model': 'product.product',
+            //     'method': 'search',
+            //     'kwargs':{'domain':[['product_tag_ids','=','favorite']]
+            //         }
+
+            // const data = await this.env.services.rpc({
+            //     'model': 'product.product',
+            //     'method': 'search',
+            //     'args': [{}]
+
+            // })
                
-            });
+            
           
-                this.favorite_products = data
+            // this.favorite_products = data
+            this.favorite_products = await this.env.pos.favorite_product2
             console.log('rpc data,', this.favorite_products)
         })
        
     }
     get faovoritProduct(){
         let products = this.env.pos.db.product_by_id;
+         console.log('.product_by_id',products)
         console.log('.product_by_id',products)
         let favorite = []
         this.favorite_products.forEach(p => favorite.push(products[p]))

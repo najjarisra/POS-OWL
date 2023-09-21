@@ -35,18 +35,21 @@
             'list_hiritage_owl/static/src/pos/favorite_product/favorite_product.xml',
             'list_hiritage_owl/static/src/pos/favorite_product/favorite_product.js',
 
-            
+            'list_hiritage_owl/static/src/pos/*.js',
             'list_hiritage_owl/static/src/pos/*.xml',
             'list_hiritage_owl/static/src/pos/*.scss',           
            
             'list_hiritage_owl/static/src/pos/payment_screen/**/*.xml',
             'list_hiritage_owl/static/src/pos/payment_screen/**/*.js',
+             'list_hiritage_owl/static/src/pos/payment_screen/**/*.scss',
             
             'list_hiritage_owl/static/src/favorite_screen_button/**/*.js',
             'list_hiritage_owl/static/src/favorite_screen_button/**/*.xml',
             
             'list_hiritage_owl/static/src/favorite_secreen/**/*.js',
             'list_hiritage_owl/static/src/favorite_secreen/**/*.xml',
+            'list_hiritage_owl/static/src/favorite_secreen/**/*.scss',
+            
 
 
 

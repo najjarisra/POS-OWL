@@ -1,61 +1,9 @@
-.pos .pos-topheader {
-    background: #065195;
-}
-
-.pos .pos-logo {
-    height: 100%;
-    margin-left: 10px;
-    margin-right: auto;
-    align-self: center;
-}
-
-
-.pos .product-list-container {
-
-    background: #f7f7f7;
-
-}
-
-.pos .rightpane {
-
-    background: #fdfdfd;
-}
-
-.pos .order {
-    background: rgb(1, 2, 65);
-    color: white;
-    max-width: 100%;
-
-}
-
-
-.pos .order .orderline .info-list {
-    color: white;
-}
-
-.pos .order .orderline .info-list em {
-    color: white;
-
-}
-
-// .pos .button.validation {
-
-//     background: #DF493A;
-// }
-.pos .leftpane {
-    max-width: 40%;
-}
-
-
-
-
 .favorite-product-screen {
     background-color: #011801 !important;
     color: white;
     display: flex;
     flex-direction: column;
     height: 100%;
-
 
     .screen-header {
         min-height: 100px;
@@ -95,14 +43,14 @@
         display: flex;
         height: 100%;
         overflow: hidden;
-    }
+   
 
     .left-pane {
         flex: 1 1 70%;
         overflow: auto;
         padding: 10px;
 
-        .favorite-list {
+        .favorit-list {
             width: 100%;
             background-color: white;
             color: black;
@@ -143,22 +91,14 @@
         .pads {
             margin-top: auto;
 
+            .control-button {
+                color: #333;
+            }
+
             .subpads {
                 display: flex;
             }
         }
-
-
+    }
     }
 }
-
-// .pos .leftpane {
-//     max-width: 1500px;
-//     order:2
-
-// }
-
-// .pos .righttpane {
-//     order:1
-
-// }

@@ -1,91 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
-        <t t-name="FavoriteSereenProduct" owl="1">
-
-                <div class="favorite-product-screen screen">
-                    <div class="screen-header">
-                        <div>
-                            <h1>this is Favorite Product Screen</h1>
-                            <p>Date :</p>
-                            <p>Popup Message :</p>
-
-                        </div>
-                        <div class="large-buttons">
-                            <button t-on-click = "()=>this.showScreen('ProductScreen')">ProductScreen</button>
-                            <button class="red">Mark as down<br/>Favorite</button>
-                            <button class="orange">Mark as<br/>not Favorite</button>
-                            <button class="blue">Toggle Favorites</button>
-                        </div>
-
-                    </div>
-                    <div class="favorite-content">
-
-                        <div class="left-pane">
-                        <table class="favorit-list">
-                            <thead>
-                                <tr>
-                                    <th>Product name</th>
-                                
-                                </tr>
-
-                            </thead>
-
-                            <tbody>
-                                    <tr>
-                                    <td>[100] favorite Product</td>
-                                    
-                                    
-                                    
-                                    </tr>
-                                     <tr>
-                                    <td>[100] favorite Product</td>
-                                                      </tr>
-                                     <tr>
-                                        <td>[100] favorite Product</td>
-                                                                     
-                                    </tr>
-                            </tbody>                        
-                        
-                        
-                        </table>
-                        </div>
-                        <div class="right-pane">
-                                <div class="selected-product">
-                                        <h1> Product détails</h1>
-                                        <p>
-                                                Name :<br/>
-                                                Code:<br/>
-                                                Price:<br/>
-                                                                            
-                                        </p>                                   
-                                
-                                                    
-                                </div>
-
-                                 <div class="pads">
-                                        <div class="contrl-buttons">
-                                        
-                                        Control button
-                                        
-                                        </div>
-                                      
-
-                                      <div class="subpads">
-                                            <t t-set="_actionName">Action</t>
-                                            <ActionpadWidget partner="partner" actionName="_actionName"  />
-                                            <NumpadWidget/>
-                                        </div>
-                                </div>
-                        </div>
-
-
-
-                    </div>
-
-
-                </div>
-
-        </t>
+	<t t-name="FavoriteSereenProduct" owl="1">
+		<div class="favorite-product-screen screen">
+			<div class="screen-header">
+				<div>
+					<h1>
+						this is Favorite Product Screen
+					</h1>
+					<p>
+						Date :
+					</p>
+					<p>
+						Popup Message :
+					</p>
+				</div>
+				<div class="large-buttons">
+					<button t-on-click="()=>this.showScreen('ProductScreen')">
+						ProductScreen
+					</button>
+					<button class="red">
+						Mark as down
+						<br />
+						Favorite
+					</button>
+					<button class="orange">
+						Mark as
+						<br />
+						not Favorite
+					</button>
+					<button class="blue">
+						Toggle Favorites
+					</button>
+				</div>
+			</div>
+			<div class="favorite-content">
+				<div class="left-pane">
+					<table class="favorit-list">
+						<thead>
+							<tr>
+								<th>
+									Product name
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									[100] favorite Product
+								</td>   
+							</tr>
+							<tr>
+								<td>
+									[102] favorite Product
+								</td>
+							</tr>
+							<tr>
+								<td>
+									[100] favorite Product
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="right-pane">
+					<div class="selected-product">
+						<h1>
+							Product détails
+						</h1>
+						<p>
+							Name :
+							<br />
+							Code:
+							<br />
+							Price:
+							<br />
+						</p>
+					</div>
+					<div class="pads">
+						<div class="contrl-buttons">
+							Control button
+						</div>
+						<div class="subpads">
+							<t t-set="_actionName">
+								Action
+							</t>
+							<ActionpadWidget partner="partner" actionName="_actionName" />
+							<NumpadWidget />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</t>
 </templates>
-
-  
